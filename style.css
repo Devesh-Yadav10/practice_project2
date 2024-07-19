@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'NikeFont';
+  src: url('font/Futura\ Std\ Extra\ Bold\ Condensed\ Oblique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+nav {
+  display: flex;
+  align-items: center;
+  
+  box-shadow: 1px 3px 3px gray;
+}
+*{
+  font-family: 'NikeFont', sans-serif;
+}
+a {
+  text-decoration: none;
+  padding: 20px;
+  
+  color: black;
+  font-size: 24px
+}
+nav img {
+  margin-right: auto;
+  margin-left: 20px;
+}
+.just-in{
+  margin-top: 20px;
+  position: relative;
+}
+
+img{
+  border-radius: 5px;
+  flex-wrap: nowrap;
+}
+
+svg {
+  fill: black;
+  transition: 0.3s ease;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+svg:hover{
+  background-color: rgb(169, 167, 167);
+  border-radius: 100px;
+  
+}
+.links-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.middle {
+  display: flex;
+  gap: 100px ;
+}
+.categories{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0px ;
+  margin-top: 20px;
+  
+  right: 10px;
+}
+.middle .just-in img {
+  width: 100%;
+  position: relative;
+}
+.text-just-in {
+  position: absolute;
+  right: 15px;
+  font-size: 80px;
+  top: 0;
+  color: white;
+  text-decoration: underline white;
+}
+.link-just-in {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 30px;
+}
+.categories img:hover {
+
+  transform: scale(1.2);
+}
+
+.text {
+  opacity: 1;
+  text-align: center;
+  margin-top: 13px;
+  font-size: 20px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+}
+.text:hover {
+  opacity: 1;
+}
+.categories img {
+  transition: 0.2s ease;
+}
+p {
+  font-size: 20px; 
+  font-weight: 100;
+}
+h1 {
+  font-size: 70px;
+  position: relative;
+  width: fit-content;
+}
+.about {
+  display: flex;
+  align-items: center;
+  gap: 30px ;
+}
+h1::before {
+  content: '';
+  position: absolute;
+  background: linear-gradient(to right, black,blue);
+  width: 100%;
+  height: 10px;
+  bottom: 0;
+  left: 0;
+  border-radius: 5px;
+}
+.bottom {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
