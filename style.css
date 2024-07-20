@@ -64,7 +64,7 @@ svg:hover{
   flex-wrap: wrap;
   gap: 0px ;
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 0px;
   right: 10px;
 }
 .middle .just-in img {
@@ -156,6 +156,7 @@ h1::before {
   .middle {
     display: flex;
     flex-direction: column;
+    gap: 20px ;
     
   }
   .links-container a:hover{
@@ -225,5 +226,8 @@ h1::before {
 
   .about img{
     display: none;
+  }
+  .categories img{
+    margin-top: 0;
   }
 }
