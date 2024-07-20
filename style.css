@@ -229,5 +229,12 @@ h1::before {
   }
   .categories img{
     margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 20px ;
+    flex-wrap: wrap;
+  }
+  .images-categories {
+    padding-left: 20px;
   }
 }
